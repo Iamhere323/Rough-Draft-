@@ -21,8 +21,11 @@ Travel booking system
 
 
 inception = We want to create a user friendly system to book and search 
+
             target customer : travelers anyone looking for rental
+            
             nature user for try : user friendly application that can help you search based on location
+
 
 Eliciation = Functional : what rentals will be available 
                           search functions
@@ -39,10 +42,10 @@ Eliciation = Functional : what rentals will be available
                               a business looking to rent multiple vehicle 
                               a businesses looking to list vehicles for personal use
 
-Elaboration = 
+Elaboration = classes : Travelers, cars, business, 
 
             
                             
-## programmers, business, investors, 
+
 
 
