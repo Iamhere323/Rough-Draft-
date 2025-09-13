@@ -42,7 +42,7 @@ Eliciation = Functional : what rentals will be available
                               a business looking to rent multiple vehicle 
                               a businesses looking to list vehicles for personal use
 
-Elaboration = classes : Travelers, cars, business, 
+Elaboration = classes : Travelers, cars, business, user_interface, customer_information
 
             
                             
