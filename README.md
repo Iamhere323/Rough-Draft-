@@ -12,7 +12,28 @@ Travel booking system
 
 
 inception = We want to create a user friendly system to book and search 
-            travelers : 
+            target customer : travelers anyone looking for rental
+            nature user for try : user friendly application that can help you search based on location
+
+Eliciation = Functional : what rentals will be available 
+                          search functions
+                          reservations
+                          payments
+            non - function: run 24/7 
+                            code be change easily(maintenance ability)
+                            we want it to run on multiple device
+                            security/write encryte code
+                            updates
+
+            for user_stories: traveler needs a car rental
+                              local car been in an accident/totaled
+                              a business looking to rent multiple vehicle 
+                              a businesses looking to list vehicles for personal use
+
+Elaboration = 
+
+            
+                            
 ## programmers, business, investors, 
 
 
