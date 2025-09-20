@@ -66,34 +66,53 @@ Section 2: Requirements Solicitation
 
 1. Inception
 Company Background: RentaCar Express is a 40-year-old car rental company that has recently been acquired by new ownership. The company currently generates $25 million in annual revenue through traditional brick-and-mortar locations across 15 major metropolitan areas. However, the company is losing market share to competitors like Enterprise, Hertz, and emerging digital-first platforms like Turo.
+
+
 Business Opportunity: The digital transformation represents a critical strategic opportunity to:
-Increase Revenue: Projected 30% revenue increase within 18 months through online bookings and expanded customer reach
-Market Share Recovery: Recapture lost customers who have migrated to competitors' online platforms
-Competitive Positioning: Establish tech that competes with industry leaders in digital customer experience
-Operational Efficiency: Reduce customer wait times and staffing costs at physical locations
-This is a time-bound opportunity; competitors are already dominant in the online space, and RentaCar Express risks losing its existing market share and becoming obsolete if it doesn't adapt within the next 12 to 18 months.
+
+
+            Increase Revenue: Projected 30% revenue increase within 18 months through online bookings and expanded customer reach
+
+
+            Market Share Recovery: Recapture lost customers who have migrated to competitors' online platforms
+
+            
+            Competitive Positioning: Establish tech that competes with industry leaders in digital customer experience
+            
+            Operational Efficiency: Reduce customer wait times and staffing costs at physical locations
+            
+            This is a time-bound opportunity; competitors are already dominant in the online space, and RentaCar Express risks losing its                   existing market share and becoming obsolete if it doesn't adapt within the next 12 to 18 months.
+
+
+
 Market Research: The company's newly formed Digital Strategy Department conducted:
 Customer survey of 2,500 existing customers revealing 78% prefer online booking
 Competitive analysis showing all major competitors have comprehensive online platforms
 Industry trend analysis indicating 65% of car rentals are now booked online
+
+
+
 Target Customer Segments:
-Business Travelers (40% of target market)
-Existing customers who frequently rent for work trips
-Need quick, efficient booking and modification capabilities
-Value integration with corporate accounts and expense systems
-Leisure Travelers (35% of target market)
-Mix of existing and new customers planning vacation rentals
-Want to compare vehicle options and prices before arriving
-Prefer advance booking for peace of mind
-Local Emergency Renters (15% of target market)
-New customer segment: locals whose cars are in accidents/repair
-Need immediate availability checking and quick booking
-Price-sensitive with shorter rental durations
-Corporate Fleet Customers (10% of target market)
-Businesses needing multiple vehicle rentals
-Existing high-value customers requiring bulk booking capabilities
-Need administrative controls and reporting features
-Nature of Solution
+            Business Travelers (40% of target market)
+            Existing customers who frequently rent for work trips
+            Need quick, efficient booking and modification capabilities
+            Value integration with corporate accounts and expense systems
+            Leisure Travelers (35% of target market)
+            Mix of existing and new customers planning vacation rentals
+            Want to compare vehicle options and prices before arriving
+            Prefer advance booking for peace of mind
+            Local Emergency Renters (15% of target market)
+            New customer segment: locals whose cars are in accidents/repair
+            Need immediate availability checking and quick booking
+            Price-sensitive with shorter rental durations
+            Corporate Fleet Customers (10% of target market)
+            Businesses needing multiple vehicle rentals
+            Existing high-value customers requiring bulk booking capabilities
+            Need administrative controls and reporting features
+            Nature of Solution
+
+
+
 Framework: 
 Website: Flask (Python) + HTML/CSS/JavaScript frontend + SQLite database 
 Mobile App: Kivy (Python-based Cross-platform mobile framework)
