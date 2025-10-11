@@ -1,0 +1,10 @@
+Done:
+-created user class
+-created class for inventory of cars
+-created class to id the cars
+-created CI Pipeline with linting
+
+Need to do:
+-find list of cars to fill the inventory
+-create a "main.py" file to tie classes together for practical use
+-
