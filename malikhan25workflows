@@ -1,1 +1,25 @@
+class Customer:
+    def __init__(self, name, email, phone):
+        """Initialize a new customer with basic info."""
+        self.name = name
+        self.email = email
+        self.phone = phone
+        self.reservations = []  # list to store car reservations
 
+    def add_reservation(self, car):
+        """Add a car reservation to the customer's list."""
+        self.reservations.append(car)
+        print(f"{self.name} booked {car['make']} {car['model']} ({car['year']}).")
+
+    def view_reservations(self):
+        """View all cars reserved by this customer."""
+        if not self.reservations:
+            print(f"{self.name} has no active reservations.")
+        else:
+            print(f"\nReservations for {self.name}:")
+            for car in self.reservations:
+                print(f" - {car['make']} {car['model']} ({car['year']})")
+
+    def __repr__(self):
+        """String representation of the Customer object."""
+        return f"Customer(name='{self.name}', email='{self.email}')"
