@@ -1,1 +1,22 @@
+# Simulated list of cars in the inventory
+cars = [
+    {"id": 1, "make": "Honda", "model": "Civic", "year": 2022, "available": True},
+    {"id": 2, "make": "Toyota", "model": "Corolla", "year": 2021, "available": True},
+    {"id": 3, "make": "Honda", "model": "Accord", "year": 2020, "available": False},
+    {"id": 4, "make": "Honda", "model": "Civic", "year": 2020, "available": True},
+    {"id": 5, "make": "Honda", "model": "Civic", "year": 2025, "available": True},  # Added 2025 Civic
+]
 
+def book_honda_civic(customer_name, year):
+    # Search for an available Honda Civic from the requested year
+    for car in cars:
+        if car["make"] == "Honda" and car["model"] == "Civic" and car["year"] == year and car["available"]:
+            car["available"] = False  # Mark the car as booked
+            print(f"Booking confirmed for {customer_name}: Honda Civic {year} (ID {car['id']}).")
+            return car
+    print(f"Sorry, no Honda Civic from {year} is available for booking at the moment.")
+    return None
+
+# Example usage
+if __name__ == "__main__":
+    book_honda_civic("malikhan25", 2025)
