@@ -8,7 +8,7 @@ class CarInventory:
             print(f"Car ID {car.car_id} already exists.")
         else:
             self.cars[car.car_id] = car
-            print(f"Car added: {car}")
+            #print(f"Car added: {car}")
     
     def view_available_cars(self):
         available_cars = [car for car in self.cars.values() if car.is_available]
