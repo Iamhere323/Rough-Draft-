@@ -11,4 +11,4 @@ class Car:
     
     def __str__(self):
         status = "Available" if self.is_available else "Rented"
-        return f"{self.year} {self.make} {self.model} ({self.car_type}) - {status}"
+        return f"[ID:{self.car_id}] {self.year} {self.make} {self.model} ({self.car_type}) - {status}"
