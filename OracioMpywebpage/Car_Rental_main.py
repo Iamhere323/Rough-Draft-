@@ -78,7 +78,7 @@ def rent_car_to_user(user, inventory):
             print("Invalid input. Please enter a valid number of days.")
             return
 
-        rental = Rental(user, car, duration_days)
+        rental = Rental(car_id, user, car, duration_days)
         user.add_rental(rental)
         print(f"\n{user.name}, you successfully rented:\n  {rental}")
 
