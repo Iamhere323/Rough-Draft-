@@ -13,7 +13,7 @@ def load_inventory_from_file(filename, inventory):
 
                 parts = line.split(',')
                 if len(parts) != 6:
-                    print(f"⚠️ Skipping invalid line: {line}")
+                    print(f"Skipping invalid line: {line}")
                     continue
 
                 car_id, make, model, year, car_type, is_available = parts
@@ -29,17 +29,17 @@ def load_inventory_from_file(filename, inventory):
                     )
                     inventory.add_car(car)
                 except ValueError:
-                    print(f"⚠️ Invalid data format in line: {line}")
+                    print(f"Invalid data format in line: {line}")
 
     except FileNotFoundError:
-        print(f"🚫 File not found: {filename}")
+        print(f"File not found: {filename}")
 
 def register_user(users_db):
     print("\n--- Register New User ---")
     name = input("Enter your name: ")
     email = input("Enter your email: ").lower()
     if email in users_db:
-        print("⚠️ User with this email already exists. Try logging in.")
+        print("User with this email already exists. Try logging in.")
         return None
     user_id = len(users_db) + 1
     user = User(name, email, user_id)
