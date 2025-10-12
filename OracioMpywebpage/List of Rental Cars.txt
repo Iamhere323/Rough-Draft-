@@ -1,0 +1,45 @@
+1,Toyota,Camry,2025,Sedan,True
+2,Honda,Civic,2025,Sedan,True
+3,Nissan,Versa,2025,Sedan,True
+4,Kia,K4,2025,Sedan,True
+5,Toyota,Corolla,2025,Sedan,True
+6,Chevrolet,Trax,2025,SUV,True
+7,Hyundai,Venue,2025,SUV,True
+8,Toyota,Corolla Cross,2025,SUV,True
+9,Honda,CR-V,2025,SUV,True
+10,Kia,Soul,2025,SUV,True
+11,Nissan,Kicks,2025,SUV,True
+12,Buick,Envista,2025,SUV,True
+13,Toyota,Highlander,2025,SUV,True
+14,Ford,Maverick,2025,Truck,True
+15,Hyundai,Santa Cruz,2025,Truck,True
+16,Chrysler,Pacifica,2025,Van,True
+17,Kia,Carnival,2025,Van,True
+18,Toyota,Corolla,2024,Sedan,True
+19,Honda,Accord,2024,Sedan,True
+20,Nissan,Altima,2024,Sedan,True
+21,Hyundai,Elantra,2024,Sedan,True
+22,Kia,Forte,2024,Sedan,True
+23,Chevrolet,Bolt EV,2024,Sedan,True
+24,Hyundai,Kona,2024,SUV,True
+25,Mazda,CX‑30,2024,SUV,True
+26,Subaru,Forester,2024,SUV,True
+27,Ford,Escape,2024,SUV,True
+28,Chevrolet,Equinox,2024,SUV,True
+29,Nissan,Rogue,2024,SUV,True
+30,Toyota,Sienna,2024,Van,True
+31,Honda,Odyssey,2024,Van,True
+32,Ram,1500,2024,Truck,True
+33,Ford,F‑150,2024,Truck,True
+34,Toyota,Tacoma,2024,Truck,True
+35,Chevrolet,Silverado 1500,2024,Truck,True
+36,Mercedes-Benz,Sprinter 2500 Cargo Van,2025,CargoVan,True
+37,Ram,ProMaster EV Cargo Van (12‑ft),2025,CargoVan,True
+38,GMC,Savana Van Cargo,2025,CargoVan,True
+39,Chevrolet,Express Van Cargo,2025,CargoVan,True
+40,Ford,E‑Transit Cargo Van,2025,CargoVan,True
+41,Chevrolet,BrightDrop 600 Van,2025,CargoVan,True
+42,Isuzu,N‑Series Box Truck,2025,BoxTruck,True
+43,Freightliner,M2 Box Truck,2025,BoxTruck,True
+44,International,MV Series Step Van,2025,StepVan,True
+45,Ram,ProMaster Van Cargo (Low Roof),2024,CargoVan,True
