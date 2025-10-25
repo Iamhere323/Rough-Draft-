@@ -1,207 +1,239 @@
-# Rough-Draft-
-Oracio S Miranda, Github username: IAMHERE323
+# Car Rental System
 
+### A simple car rental application for browsing and booking rental vehicles
 
-Mohamed Aiad, github username: maiad22
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-In%20Development-yellow.svg)]()
 
+A user-friendly car rental application that allows travelers to browse vehicles, search by type, and make reservations. Built as an educational project for CPSC 362 - Software Engineering at California State University, Fullerton.
 
-Mohammad Ali Khan, github username: malikhan25
+![Car Rental Demo](https://via.placeholder.com/800x400?text=Car+Rental+System+Demo)
 
+# Table of Contents
 
-Cameron Tran, github username: Camerontran71
+- [Project Description](#project-description)
+- [Features](#features)
+- [Installation Instructions](#installation-instructions)
+- [Usage](#usage)
+- [System Diagram](#system-diagram)
+- [Known Issues](#known-issues)
+- [To-Do Items](#to-do-items)
+- [Team Members](#team-members)
+- [License](#license)
 
+# Project Description
 
-Shigeyasu Kameda, github username: Shigeyasu Kameda
+[(Back to top)](#table-of-contents)
 
+The **Car Rental System** is an application designed to simplify the car rental process for travelers. Whether you're a business traveler needing a quick rental for a work trip, a local resident whose car is in the shop, or planning a vacation, our system provides an easy way to browse, search, and reserve rental vehicles.
 
-prompt ##
+The system allows users to:
+- Browse available rental vehicles with detailed information
+- Search and filter cars by type (sedan, SUV, sports car)
+- View pricing and vehicle specifications
+- Make reservations with flexible date selection
+- Manage rental bookings
 
+**Note:** This is an educational project. No real transactions or personal data are processed.
 
-Travel booking system
+## Features
 
+- **Easy Registration**: Quick account creation to get started
+- **Vehicle Catalog**: Browse through available vehicles with photos and specifications
+- **Smart Search**: Filter vehicles by type, price range, and features
+- **Flexible Booking**: Select rental dates and reserve your preferred vehicle
+- **Reservation Management**: View and manage your current and past rentals
+- **Rate Information**: Transparent pricing for all vehicle types
 
-inception = We want to create a user friendly system to book and search 
+# Installation Instructions
 
-            target customer : travelers anyone looking for rental
-            
-            nature user for try : user friendly application that can help you search based on location
+[(Back to top)](#table-of-contents)
 
+## System Requirements
 
-Eliciation = Functional : what rentals will be available 
-                          search functions
-                          reservations
-                          payments
-            non - function: run 24/7 
-                            code be change easily(maintenance ability)
-                            we want it to run on multiple device
-                            security/write encryte code
-                            updates
+- **Operating System**: Windows 10+, macOS 10.15+, or Linux (Ubuntu 20.04+)
+- **Python**: Version 3.8 or higher
+- **Internet Connection**: Required for initial download
 
-            for user_stories: traveler needs a car rental
-                              local car been in an accident/totaled
-                              a business looking to rent multiple vehicle 
-                              a businesses looking to list vehicles for personal use
+## Installation Steps
 
-Elaboration = classes : Travelers, vehicle, business, user_interface, customer_information, payment_processing, time_frame
+### Option 1: Download from GitHub
 
-            
-                            
-# final_draft--
+1. **Download the application**
+   - Visit our [GitHub repository](https://github.com/Iamhere323/Rough-Draft-updated-10.06.25)
+   - Click the green "Code" button
+   - Select "Download ZIP"
+   - Extract the ZIP file to your desired location
 
+2. **Install Python** (if not already installed)
+   - Visit [python.org](https://www.python.org/downloads/)
+   - Download Python 3.8 or higher
+   - Run the installer and check "Add Python to PATH"
 
+3. **Launch the application**
+   - Open the extracted folder
+   - Double-click `main_menu.py` to start the application
+   - Alternatively, open terminal/command prompt in the folder and run:
+```bash
+     python main_menu.py
+```
 
+### Option 2: Quick Start (Future Release)
 
-Section 1: Prompt Selection
-Our group has selected the Car Rental System prompt for our project.
-Github link : https://github.com/Iamhere323/Rough-Draft-/blob/main/README.md 
+*A standalone executable with one-click installation will be available in future releases.*
 
-NAMES:
-Oracio S Miranda, Github username: IAMHERE323
-Mohamed Aiad, github username: maiad22
-Mohammad Ali Khan, github username: malikhan25
-Cameron Tran, github username: Camerontran71
-Shigeyasu Kameda, github username: Shigeyasu Kameda
-Section 2: Requirements Solicitation
+# Usage
 
+[(Back to top)](#table-of-contents)
 
-1. Inception
-Company Background: RentaCar Express is a 40-year-old car rental company that has recently been acquired by new ownership. The company currently generates $25 million in annual revenue through traditional brick-and-mortar locations across 15 major metropolitan areas. However, the company is losing market share to competitors like Enterprise, Hertz, and emerging digital-first platforms like Turo.
+## Getting Started
 
+When you first launch the application, you'll see the main menu:
+```
+==========================================
+    CAR RENTAL SYSTEM - MAIN MENU
+==========================================
+1. View Available Cars
+2. Rent a Car
+3. Return a Car
+4. View My Rentals
+5. Search Cars by Type
+6. View Rental Rates
+7. Customer Registration
+8. Exit
+==========================================
+```
 
-Business Opportunity: The digital transformation represents a critical strategic opportunity to:
+## Step-by-Step Guide
 
+### First Time Users
 
-            Increase Revenue: Projected 30% revenue increase within 18 months through online bookings and expanded customer reach
+1. **Create an Account**
+   - Select option `7` (Customer Registration)
+   - Enter your name and email
+   - You're now ready to browse and rent!
 
+2. **Browse Available Vehicles**
+   - Select option `1` (View Available Cars)
+   - Browse through the list of available vehicles
+   - Note the vehicle details and pricing
 
-            Market Share Recovery: Recapture lost customers who have migrated to competitors' online platforms
+3. **Search for Specific Vehicle Types**
+   - Select option `5` (Search Cars by Type)
+   - Choose from sedan, SUV, sports car, or electric
+   - View filtered results matching your preference
 
-            
-            Competitive Positioning: Establish tech that competes with industry leaders in digital customer experience
-            
-            Operational Efficiency: Reduce customer wait times and staffing costs at physical locations
-            
-            This is a time-bound opportunity; competitors are already dominant in the online space, and RentaCar Express risks losing its                   existing market share and becoming obsolete if it doesn't adapt within the next 12 to 18 months.
+4. **Make a Reservation**
+   - Select option `2` (Rent a Car)
+   - Choose your desired vehicle
+   - Enter pickup and return dates
+   - Confirm your reservation
 
+### Managing Your Rentals
 
+- **View Your Rentals**: Select option `4` to see all your current and past reservations
+- **Return a Vehicle**: Select option `3` when you've completed your rental period
+- **Check Rates**: Select option `6` to view pricing for different vehicle categories
 
-Market Research: The company's newly formed Digital Strategy Department conducted:
-Customer survey of 2,500 existing customers revealing 78% prefer online booking
-Competitive analysis showing all major competitors have comprehensive online platforms
-Industry trend analysis indicating 65% of car rentals are now booked online
+# System Diagram
 
+[(Back to top)](#table-of-contents)
 
+## Application Structure
+```
+┌─────────────────┐
+│      User       │
+├─────────────────┤
+│ - User ID       │
+│ - Name          │
+│ - Email         │
+│ - Rentals       │
+└────────┬────────┘
+         │
+         │ Makes
+         ▼
+┌─────────────────┐         ┌─────────────────┐
+│   Reservation   │  For    │     Vehicle     │
+├─────────────────┤◄────────├─────────────────┤
+│ - Booking ID    │         │ - Vehicle ID    │
+│ - Start Date    │         │ - Brand         │
+│ - End Date      │         │ - Model         │
+│ - Vehicle       │         │ - Type          │
+│ - Customer      │         │ - Price/Day     │
+└─────────────────┘         │ - Available     │
+                            └─────────────────┘
+```
 
-Target Customer Segments:
-            Business Travelers (40% of target market)
-            Existing customers who frequently rent for work trips
-            Need quick, efficient booking and modification capabilities
-            Value integration with corporate accounts and expense systems
-            Leisure Travelers (35% of target market)
-            Mix of existing and new customers planning vacation rentals
-            Want to compare vehicle options and prices before arriving
-            Prefer advance booking for peace of mind
-            Local Emergency Renters (15% of target market)
-            New customer segment: locals whose cars are in accidents/repair
-            Need immediate availability checking and quick booking
-            Price-sensitive with shorter rental durations
-            Corporate Fleet Customers (10% of target market)
-            Businesses needing multiple vehicle rentals
-            Existing high-value customers requiring bulk booking capabilities
-            Need administrative controls and reporting features
-            Nature of Solution
+## User Flow
+```
+Start → Register/Login → Browse Vehicles → Search/Filter → Select Vehicle → 
+Enter Dates → Confirm Booking → View Confirmation → Manage Rentals
+```
 
+*[Screenshots and video walkthrough will be added in the next release]*
 
+# Known Issues
 
-Framework: 
-Website: Flask (Python) + HTML/CSS/JavaScript frontend + SQLite database 
-Mobile App: Kivy (Python-based Cross-platform mobile framework)
-Scalability: Support for 10,000 concurrent users during peak times
-Uptime Target: 99.9% availability (maximum 8.7 hours downtime per year)
-Security: SSL encryption, PCI DSS compliance for payment processing
-User Experience Features:
-Account Management: User registration/login with profile management
-Intelligent Search: Location-based vehicle search with filters (brand, type, model, color, mpg(fuel), size, price, features)
-Recommendation Algorithm/Engine: Personalized vehicle suggestions based on rental history
-Real-time Availability: Live inventory updates across all locations
-Flexible Booking: Modification and cancellation capabilities
-Mobile Responsive: Optimized for desktop, tablet, and mobile devices
+[(Back to top)](#table-of-contents)
 
+We're actively working to improve the application. Here are some current limitations:
 
-3. Elicitation
-Project Goals:
-Functional Requirements (4): 
-1. The system must allow users to search for available vehicles based on location, dates, and vehicle type. 
-2. The system must process secure online payments for reservations. 
-3. The system must allow users to create and manage their profiles and reservations. 
-4. The system must provide an administrative dashboard for managing information, vehicle inventory and reservations.
-Non-Functional Requirements (4):
-Reliability: The system must be available 24/7 with minimal downtime for maintenance.
-Maintainability: The codebase must be well-documented and modular to allow for easy updates and bug fixes.
-Cross-Platform Compatibility: Responsive design supporting desktop, tablet, and mobile devices
-Security: All user data, including personal information and payment details, must be encrypted and protected from unauthorized access.
+- **Data Persistence**: Bookings are currently stored temporarily and reset when the application closes
+- **Payment Processing**: No actual payment integration (educational simulation only)
+- **Limited Availability Tracking**: Real-time availability updates are not yet implemented
+- **Single User Sessions**: Only one user can use the application at a time on the same machine
+- **Basic Interface**: Console-based interface (GUI version planned for future release)
 
+*If you encounter any issues not listed here, please contact our team or open an issue on GitHub.*
 
+# To-Do Items
 
-User Stories:
-Actor: Business Traveler
-1. The traveler logs into the RentaCar Express website/app with credentials.
-2. The traveler enters pickup location, return location, and rental dates.
-3. The system displays available vehicles with prices and features.
-4. The traveler selects their preferred vehicle and reviews rental details.
-5. The traveler enters card information for billing.
-6. The system processes the reservation and displays confirmation with booking reference.
-Actor: Local Emergency Renter
-The local resident opens the mobile app and creates a new account.
-The system detects current location and displays nearby rental locations.
-The resident selects the closest location and chooses rental duration.
-The resident enters payment information and accepts rental terms.
-The system confirms booking and sends pickup instructions with location details.
-Actor: Business Client Renting
-1. The business owner logs into the corporate dashboard and creates a company account.
-2. The owner enters employee information and assigns vehicle access permissions.
-3. The system displays a bulk booking interface with corporate discount pricing.
-4. The owner selects multiple vehicles for different employees and time periods.
-5. The system applies bulk discount and processes the corporate reservation.
-6. The system generates individual booking confirmations for each employee.
-Actor: Business/Client Listing
-1. The user registers as a vehicle provider on the platform.
-2. The user enters fleet details including vehicle specifications and pricing.
-3. The system verifies vehicle documentation and insurance requirements.
-4. The user sets availability, schedules, and rental rates for each vehicle.
-5. The system activates the fleet listings and displays them to customers.
-6. The user receives booking notifications and manages reservations through the portal.
-3. Elaboration
-Grammatical Parse Analysis (nouns underlined, verbs italicized) using the second user story: Local Emergency Rental: The local resident opens the mobile app and creates a new account. The system detects current location and displays nearby rental locations. The resident selects the closest location and chooses rental duration. The resident enters payment information and accepts rental terms. The system confirms booking and sends pickup instructions with location details.
-Extracting Potential Classes:
+[(Back to top)](#table-of-contents)
 
-Potential Class
-General Classification
-Local resident
-Role or external entity
-Mobile app
-External entity
-Account
-Thing
-System
-Thing
-Location
-Place
-Rental locations
-Place
-Resident
-Role or external entity 
-Rental duration
-Thing
-Payment information
-Thing
-Rental terms
-Thing
-Booking
-Occurrence
-Pickup instructions
-Thing
-Location details
-Thing
+## Planned Features
 
+We're continuously working to enhance the Car Rental System. Here are some features we plan to add:
+
+### Upcoming Enhancements
+- **Database Integration**: Persistent storage of user accounts, vehicles, and reservations
+- **Location-Based Search**: Find rental locations near you with interactive maps
+- **Advanced Filtering**: Search by price range, fuel efficiency (MPG), vehicle size, and features
+- **Recommendation System**: Get personalized vehicle suggestions based on your rental history
+- **Corporate Accounts**: Special features for businesses renting multiple vehicles
+- **Email Notifications**: Receive booking confirmations and reminders
+- **Graphical Interface**: User-friendly web-based interface for easier navigation
+
+### Long-Term Goals
+- **Mobile Application**: iOS and Android apps for on-the-go bookings
+- **Vehicle Ratings & Reviews**: See what other customers think about each vehicle
+- **Loyalty Program**: Earn points and rewards for frequent rentals
+- **Real-Time Availability**: Live updates on vehicle availability across all locations
+- **Multi-Language Support**: Interface available in multiple languages
+
+*Have a feature request? Let us know through our GitHub repository!*
+
+# Team Members
+
+[(Back to top)](#table-of-contents)
+
+- **Oracio S Miranda** - [@Iamhere323](https://github.com/Iamhere323) - Project Lead
+- **Mohamed Aiad** - [@maiad22](https://github.com/maiad22) - Backend Development
+- **Mohammad Ali Khan** - [@malikhan25](https://github.com/malikhan25) - Database & Testing
+- **Cameron Tran** - [@Camerontran71](https://github.com/Camerontran71) - UI/UX Design
+- **Shigeyasu Kameda** - [@ShigeyasuKameda](https://github.com/ShigeyasuKameda) - Documentation
+
+# License
+
+[(Back to top)](#table-of-contents)
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+**Course:** CPSC 362 - Software Engineering  
+**Semester:** Fall 2025  
+**Institution:** California State University, Fullerton
+
+*This is an educational project developed as part of our Software Engineering coursework. No real personal data, payments, or reservations are processed.*
 
