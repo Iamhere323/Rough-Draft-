@@ -199,15 +199,12 @@ We're continuously working to enhance the Car Rental System. Here are some featu
 - **Database Integration**: Persistent storage of user accounts, vehicles, and reservations
 - **Location-Based Search**: Find rental locations near you with interactive maps
 - **Advanced Filtering**: Search by price range, fuel efficiency (MPG), vehicle size, and features
-- **Recommendation System**: Get personalized vehicle suggestions based on your rental history
 - **Corporate Accounts**: Special features for businesses renting multiple vehicles
-- **Email Notifications**: Receive booking confirmations and reminders
 - **Graphical Interface**: User-friendly web-based interface for easier navigation
 
 ### Long-Term Goals
 - **Mobile Application**: iOS and Android apps for on-the-go bookings
 - **Vehicle Ratings & Reviews**: See what other customers think about each vehicle
-- **Loyalty Program**: Earn points and rewards for frequent rentals
 - **Real-Time Availability**: Live updates on vehicle availability across all locations
 - **Multi-Language Support**: Interface available in multiple languages
 
@@ -217,11 +214,11 @@ We're continuously working to enhance the Car Rental System. Here are some featu
 
 [(Back to top)](#table-of-contents)
 
-- **Oracio S Miranda** - [@Iamhere323](https://github.com/Iamhere323) - Project Lead
-- **Mohamed Aiad** - [@maiad22](https://github.com/maiad22) - Backend Development
-- **Mohammad Ali Khan** - [@malikhan25](https://github.com/malikhan25) - Database & Testing
-- **Cameron Tran** - [@Camerontran71](https://github.com/Camerontran71) - UI/UX Design
-- **Shigeyasu Kameda** - [@ShigeyasuKameda](https://github.com/ShigeyasuKameda) - Documentation
+- **Oracio S Miranda** - [@Iamhere323](https://github.com/Iamhere323)  
+- **Mohamed Aiad** - [@maiad22](https://github.com/maiad22) 
+- **Mohammad Ali Khan** - [@malikhan25](https://github.com/malikhan25) 
+- **Cameron Tran** - [@Camerontran71](https://github.com/Camerontran71) 
+- **Shigeyasu Kameda** - [@ShigeyasuKameda](https://github.com/ShigeyasuKameda) 
 
 # License
 
