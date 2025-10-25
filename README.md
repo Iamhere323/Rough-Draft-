@@ -148,7 +148,6 @@ When you first launch the application, you'll see the main menu:
 │ - User ID       │
 │ - Name          │
 │ - Email         │
-│ - Rentals       │
 └────────┬────────┘
          │
          │ Makes
