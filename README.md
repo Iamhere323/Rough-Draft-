@@ -219,13 +219,6 @@ We're continuously working to enhance the Car Rental System. Here are some featu
 - **Cameron Tran** - [@Camerontran71](https://github.com/Camerontran71) 
 - **Shigeyasu Kameda** - [@ShigeyasuKameda](https://github.com/ShigeyasuKameda) 
 
-# License
-
-[(Back to top)](#table-of-contents)
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 **Course:** CPSC 362 - Software Engineering  
 **Semester:** Fall 2025  
