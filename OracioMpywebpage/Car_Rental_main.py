@@ -88,7 +88,8 @@ def user_menu(user, inventory):
         print("1. View available cars")
         print("2. Rent a car")
         print("3. View my rental history")
-        print("4. Logout")
+        print("4. View vehicles details")
+        print("5. Logout")
 
         choice = input("Choose an option: ")
 
@@ -99,6 +100,8 @@ def user_menu(user, inventory):
         elif choice == '3':
             user.view_rentals()
         elif choice == '4':
+            inventory.display_all_vehicles_with_details()
+        elif choice == '5':
             print(f"Logged out {user.name}")
             break
         else:
